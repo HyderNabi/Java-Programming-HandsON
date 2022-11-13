@@ -1,0 +1,6 @@
+Adapter Classes simplify the creation of event handlers in certain situations.
+An Adapter class provides an empty implementation of all the methods in an event
+Listener Interface. Adapter classes are useful when you want to receive and process
+only some of the events that are handled by a particular event Listener Interface.
+You can define a new class to act as an event listener by extending one of the adapter
+classes and implementing only those events in which you are interested.
